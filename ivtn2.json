@@ -951,7 +951,7 @@
                         "name": "cargo-wagon"
                       },
                       "constant": 1,
-                      "comparator": ">"
+                      "comparator": "≥"
                     }
                   ],
                   "outputs": [
@@ -1632,10 +1632,10 @@
                     ]
                   }
                 ],
-                "group": "IVTN 2.0.3a [item=parameter-0]Train",
+                "group": "IVTN 2.0.4 [item=parameter-0]Train",
                 "interrupts": [
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-fuel-parameter]Refuel",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-fuel-parameter]Refuel",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -1702,7 +1702,7 @@
                     "inside_interrupt": true
                   },
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-item-parameter]Deliver",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-item-parameter]Deliver",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -1729,7 +1729,7 @@
                     "inside_interrupt": false
                   },
                   {
-                    "name": "IVTN 2.0.3a [item=rail-chain-signal]Depot",
+                    "name": "IVTN 2.0.4 [item=rail-chain-signal]Depot",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -1921,10 +1921,10 @@
                     "station": "[item=rail-chain-signal]"
                   }
                 ],
-                "group": "IVTN 2.0.3a [virtual-signal=signal-item-parameter]Train",
+                "group": "IVTN 2.0.4 [virtual-signal=signal-item-parameter]Train",
                 "interrupts": [
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-fuel-parameter]Refuel",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-fuel-parameter]Refuel",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -1991,7 +1991,7 @@
                     "inside_interrupt": true
                   },
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-item-parameter]Flex Pickup",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-item-parameter]Flex Pickup",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -2047,7 +2047,7 @@
                     "inside_interrupt": false
                   },
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-item-parameter]Flex Deliver",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-item-parameter]Flex Deliver",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -2074,7 +2074,7 @@
                     "inside_interrupt": false
                   },
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-item-parameter]Flex Depot",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-item-parameter]Flex Depot",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -3131,7 +3131,7 @@
                         "name": "fluid-wagon"
                       },
                       "constant": 1,
-                      "comparator": ">"
+                      "comparator": "≥"
                     }
                   ],
                   "outputs": [
@@ -3710,10 +3710,10 @@
                     ]
                   }
                 ],
-                "group": "IVTN 2.0.3a [item=parameter-0]Train",
+                "group": "IVTN 2.0.4 [item=parameter-0]Train",
                 "interrupts": [
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-fuel-parameter]Refuel",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-fuel-parameter]Refuel",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -3780,7 +3780,7 @@
                     "inside_interrupt": true
                   },
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-fluid-parameter]Deliver",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-fluid-parameter]Deliver",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -3807,7 +3807,7 @@
                     "inside_interrupt": false
                   },
                   {
-                    "name": "IVTN 2.0.3a [item=rail-chain-signal]Depot",
+                    "name": "IVTN 2.0.4 [item=rail-chain-signal]Depot",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -3997,10 +3997,10 @@
                     "station": "[item=rail-chain-signal]"
                   }
                 ],
-                "group": "IVTN 2.0.3a [virtual-signal=signal-fluid-parameter]Train",
+                "group": "IVTN 2.0.4 [virtual-signal=signal-fluid-parameter]Train",
                 "interrupts": [
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-fuel-parameter]Refuel",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-fuel-parameter]Refuel",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -4067,7 +4067,7 @@
                     "inside_interrupt": true
                   },
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-fluid-parameter]Flex Pickup",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-fluid-parameter]Flex Pickup",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -4123,7 +4123,7 @@
                     "inside_interrupt": false
                   },
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-fluid-parameter]Flex Deliver",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-fluid-parameter]Flex Deliver",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -4150,7 +4150,7 @@
                     "inside_interrupt": false
                   },
                   {
-                    "name": "IVTN 2.0.3a [virtual-signal=signal-fluid-parameter]Flex Depot",
+                    "name": "IVTN 2.0.4 [virtual-signal=signal-fluid-parameter]Flex Depot",
                     "conditions": [
                       {
                         "compare_type": "and",
@@ -4459,7 +4459,7 @@
       }
     ],
     "item": "blueprint-book",
-    "label": "IVTN v2.0.3a",
+    "label": "IVTN v2.0.4",
     "description": "A vanilla train network featuring a central depot instead of needing stackers, also allows priority demand stations.",
     "icons": [
       {
